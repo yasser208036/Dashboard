@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Settings</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&#038;display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="page">
+      <aside>
+        <h3>Yasser</h3>
+        <ul>
+          <li>
+            <a href="index.html">
+              <i class="fa-regular fa-chart-bar fa-fw"></i>
+              <span>Dashbord</span>
+            </a>
+          </li>
+          <li>
+            <a class="active" href="settings.html">
+              <i class="fa-solid fa-gear fa-fw"></i>
+              <span>Settings</span>
+            </a>
+          </li>
+          <li>
+            <a href="profile.html">
+              <i class="fa-regular fa-user fa-fw"></i>
+              <span>Profile</span>
+            </a>
+          </li>
+          <li>
+            <a href="Projects.html">
+              <i class="fa-solid fa-diagram-project fa-fw"></i>
+              <span>Projects</span>
+            </a>
+          </li>
+          <li>
+            <a href="Courses.html">
+              <i class="fa-solid fa-graduation-cap fa-fw"></i>
+              <span>Courses</span>
+            </a>
+          </li>
+          <li>
+            <a href="Friends.html">
+              <i class="fa-regular fa-circle-user fa-fw"></i>
+              <span>Friends</span>
+            </a>
+          </li>
+          <li>
+            <a href="Files.html">
+              <i class="fa-regular fa-file fa-fw"></i>
+              <span>Files</span>
+            </a>
+          </li>
+          <li>
+            <a href="Plans.html">
+              <i class="fa-regular fa-credit-card fa-fw"></i>
+              <span>Plans</span>
+            </a>
+          </li>
+        </ul>
+      </aside>
+      <div class="M-content">
+        <!-- start header -->
+        <header>
+          <div class="search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="search" placeholder="Type A Keyword" />
+          </div>
+          <div class="content">
+            <i class="fa-regular fa-bell fa-lg"></i>
+            <img src="images/avatar.png" alt="" srcset="" />
+          </div>
+        </header>
+        <!-- end header -->
+        <h1>Settings</h1>
+        <div class="settings-page container">
+          <div class="box Control">
+            <h2>Site Control</h2>
+            <p>Control The Website If There Is Maintenance</p>
+            <div class="content">
+              <p>
+                Website Control
+                <span>Open/Close Website And Type The Reason </span>
+              </p>
+              <input class="toggler" type="checkbox" checked />
+            </div>
+            <textarea placeholder="Close Message Content"></textarea>
+          </div>
+          <div class="box General">
+            <h2>General Info</h2>
+            <p>General Information About Your Account</p>
+            <form action="">
+              <label for="">First Name </label>
+              <input type="text" placeholder="First Name" />
+              <label for="">Last Name </label>
+              <input type="text" placeholder="Last Name" />
+              <label for="">Email</label>
+              <div class="email">
+                <input type="email" value="o@nn.sa" disabled />
+                <a href="">Change</a>
+              </div>
+            </form>
+          </div>
+          <div class="box Security">
+            <h2>Security Info</h2>
+            <p>Security Information About Your Account</p>
+            <div class="content">
+              <p>Password<span>Last Change On 25/10/2021 </span></p>
+              <a class="btn blu" href="">Change</a>
+            </div>
+            <div class="content">
+              <p>
+                Two-Factor Authentication<span>Enable/Disable The Feature</span>
+              </p>
+              <input class="toggler" type="checkbox" checked />
+            </div>
+            <div class="content">
+              <p>Devices<span>Check The Login Devices List </span></p>
+              <a class="gr" href="">Devices</a>
+            </div>
+          </div>
+          <div class="box Social-S">
+            <h2>Social Info</h2>
+            <p>Social Media Information</p>
+            <div class="content">
+              <i class="fa-brands fa-twitter"></i>
+              <input type="text" placeholder="Twitter Username" />
+            </div>
+            <div class="content">
+              <i class="fa-brands fa-facebook-f"></i>
+              <input type="text" placeholder="Facebook Username" />
+            </div>
+            <div class="content">
+              <i class="fa-brands fa-linkedin"></i>
+              <input type="text" placeholder="Linkedin Username" />
+            </div>
+            <div class="content">
+              <i class="fa-brands fa-youtube"></i>
+              <input type="text" placeholder="Youtube Username" />
+            </div>
+          </div>
+          <div class="box Widgets">
+            <h2>Widgets Control</h2>
+            <p>Show/Hide Widgets</p>
+            <div class="content">
+              <input type="checkbox" checked id="one" />
+              <label for="one">Quick Draft </label>
+            </div>
+            <div class="content">
+              <input type="checkbox" checked id="two" />
+              <label for="two">Yearly Targets </label>
+            </div>
+            <div class="content">
+              <input type="checkbox" checked id="three" />
+              <label for="three">Tickets Statistics </label>
+            </div>
+            <div class="content">
+              <input type="checkbox" checked id="four" />
+              <label for="four">Latest News </label>
+            </div>
+            <div class="content">
+              <input type="checkbox" id="five" />
+              <label for="five">Latest Tasks </label>
+            </div>
+            <div class="content">
+              <input type="checkbox" checked id="six" />
+              <label for="six">Top Search Items </label>
+            </div>
+          </div>
+          <div class="box Manager">
+            <h2>Backup Manager</h2>
+            <p>Control Backup Time And Location</p>
+            <div class="content">
+              <input type="radio" name="time" id="Daily" />
+              <label for="Daily">Daily</label>
+            </div>
+            <div class="content">
+              <input type="radio" name="time" id="Weekly" checked />
+              <label for="Weekly">Weekly</label>
+            </div>
+            <div class="content">
+              <input type="radio" name="time" id="Monthly" />
+              <label for="Monthly">Monthly</label>
+            </div>
+            <div class="servers">
+              <div>
+                <input type="radio" name="servers" id="server-1" />
+                <label for="server-1">
+                  <i class="fa-solid fa-server"></i>Megaman</label
+                >
+              </div>
+              <div>
+                <input type="radio" name="servers" id="server-2" checked />
+                <label for="server-2">
+                  <i class="fa-solid fa-server"></i> Zero</label
+                >
+              </div>
+              <div>
+                <input type="radio" name="servers" id="server-3" />
+                <label for="server-3">
+                  <i class="fa-solid fa-server"></i> Sigma</label
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
